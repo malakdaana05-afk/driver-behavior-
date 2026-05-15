@@ -31,7 +31,7 @@ st.write(
 @st.cache_resource
 def load_my_model():
 
-    return load_model("best_model.keras", compile=False)
+    return load_model("fixed_model.h5", compile=False)
 model = load_my_model()
 
 # =========================
