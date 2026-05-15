@@ -28,7 +28,6 @@ st.write(
 # LOAD MODEL
 # =========================
 
-model = load_my_model()
 @st.cache_resource
 def load_my_model():
 
