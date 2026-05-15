@@ -30,13 +30,7 @@ st.write(
 
 @st.cache_resource
 def load_my_model():
-
-    model = load_model(
-        "/content/drive/MyDrive/Deep_project/best_model.keras"
-    )
-
-    return model
-
+    return load_model("best_model.keras")
 model = load_my_model()
 
 # =========================
